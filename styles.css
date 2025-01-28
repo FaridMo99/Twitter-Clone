@@ -1,5 +1,4 @@
 * {
-    box-sizing:border-box;
     color:white;
     list-style: none;
     text-decoration: none;
@@ -11,11 +10,10 @@ body {
     background-color: black;
     display: flex;
 }
-
+/*here starts the first column*/
 header {
     width:25vw;
     height:100vh;
-    
 }
 
 nav {
@@ -52,3 +50,28 @@ button {
     justify-content: space-evenly;
 }
 
+/*here starts the center column*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right:1px solid grey;
+}
+
+main>* {
+    border-bottom:1px solid grey;
+}
+
+.fürDich {
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    height: 7%;
+}
+
+.posten {
+    display:flex;
+    
+}
