@@ -39,6 +39,11 @@ li img {
     height:40px;
 }
 
+div img {
+    width:4vw;
+    height:4vh;
+}
+
 button {
     background-color: white;
     color:black;
