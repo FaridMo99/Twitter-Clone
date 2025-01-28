@@ -61,17 +61,39 @@ main {
 
 main>* {
     border-bottom:1px solid grey;
+    width: 100%;
 }
 
 .fürDich {
     display:flex;
     justify-content: space-evenly;
-    width: 100%;
     align-items: center;
     height: 7%;
 }
 
 .posten {
     display:flex;
-    
+   
+    height: 20%;
+}
+
+.neues {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.icons {
+    display: flex;
+    background-color: red;
+    justify-content: space-evenly;
+}
+
+.icons div {
+    color:rgb(69, 177, 232);
+}
+
+.smallButton {
+    align-self:flex-end;
+    margin-bottom: 2%;
 }
