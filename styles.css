@@ -239,3 +239,23 @@ input#search {
  .bu>button {
     width:100%;
  }
+
+ .neues>p {
+    font-weight:bold;
+ }
+
+ .neues {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+ }
+
+ .neues>div {
+    padding-bottom:6%;
+ }
+
+ .neues>p {
+    padding-left:6%;
+ }
