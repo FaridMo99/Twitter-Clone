@@ -165,14 +165,13 @@ footer {
     width:25%;
     display:flex;
     flex-direction:column;
-    justify-content: space-between;
 }
 
 footer>div {
     background-color: black;
     border:1px solid grey;
     border-radius:8px;
-    margin:5%;
+    margin:5% 5% 5vh 5%;
 }
 
 .search {
@@ -194,3 +193,49 @@ input#search {
     height:90%;
 }
 
+.premium {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.premium p,.wemFolgen>div, .neues>div, .wemFolgen p {
+    padding-left: 6%;
+}
+
+.abo {
+    width:40%;
+    background-color: rgb(69, 177, 232);
+    color:white;
+    font-size:100%;
+    font-weight: bold;
+    margin-left:6%;
+    margin-bottom: 6%;
+}
+ .mehr {
+    color:rgb(69, 177, 232);
+ }
+
+ .wemFolgen {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+
+ .wemFolgen>p:first-child {
+    font-weight: bold;
+ }
+
+ .wf {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .bu {
+    width:20%;
+    margin-right:6%;
+ }
+
+ .bu>button {
+    width:100%;
+ }
