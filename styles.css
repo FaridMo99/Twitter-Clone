@@ -90,20 +90,40 @@ main>* {
 
 .posten {
     display:flex;
-   
     height: 20%;
 }
+
 
 .neues {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    width:45%;
+    margin-left: 2vw;
+}
+
+#Eingabe {
+    background-color: black;
+    border:none;
+    width:100%;
+    height:50%;
+    font-weight:bold;
+    font-size:1.5em;
+}
+
+input#Eingabe {
+    box-sizing: border-box;
+    padding-bottom:6vh;
+  
 }
 
 .icons {
     display: flex;
-    background-color: red;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+    height:30%;
 }
 
 .icons div {
@@ -113,4 +133,9 @@ main>* {
 .smallButton {
     align-self:flex-end;
     margin-bottom: 2%;
+}
+
+.smallButton>button {
+    background-color: grey;
+    width: 100%;
 }
