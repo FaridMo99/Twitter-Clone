@@ -61,6 +61,10 @@ button {
     justify-content: space-evenly;
 }
 
+.df {
+    align-self:center;
+}
+
 /*here starts the center column*/
 
 main {
@@ -259,3 +263,9 @@ input#search {
  .neues>p {
     padding-left:6%;
  }
+
+
+ head>*:hover,.icons>div:hover, button:hover, .fürDich>div:hover, li:hover {
+    background-color: grey;
+    border-radius:10px;
+ } 
