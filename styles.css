@@ -99,7 +99,7 @@ main>* {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width:45%;
+    width:100%;
     margin-left: 2vw;
 }
 
@@ -133,9 +133,13 @@ input#Eingabe {
 .smallButton {
     align-self:flex-end;
     margin-bottom: 2%;
+    margin-right:2%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
 }
 
 .smallButton>button {
     background-color: grey;
-    width: 100%;
+    width: 30%;
 }
