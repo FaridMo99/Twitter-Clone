@@ -143,3 +143,15 @@ input#Eingabe {
     background-color: grey;
     width: 30%;
 }
+
+.anzeigen {
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anzeigen p {
+    color:rgb(69, 177, 232);
+}
+
